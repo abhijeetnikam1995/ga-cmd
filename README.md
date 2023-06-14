@@ -170,3 +170,56 @@ $ ./build.sh <16 to 64 character key>
 ```
 
 The source will compile, test routines are built and verified, then the `ga-cmd` is built and deposited at `bin/ga-cmd`.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+git clone https://github.com/arcanericky/ga-cmd.git
+    2  cd ga-cmd/
+    3  cd src/
+    4  build.sh <key>
+    5  sh build.sh <key>
+    6  apt install make
+    7  sh build.sh <key>
+    8  apt install libpam0g-dev gcovr
+    9  apt update
+   10  apt install libpam0g-dev gcovr
+   11  sh build.sh <key>
+   12  git submodule update --init --recursive
+   13  sh build.sh <key>
+   14  l
+   15  cd google-authenticator-libpam/
+   16  vi README.md 
+   17  ./bootstrap.sh 
+   18  apt install automake
+   19  ./bootstrap.sh 
+   20  apt install autoreconf
+   21  sudo apt-get install libtool -y
+   22  ./bootstrap.sh 
+   23  vi README.md 
+   24  ./configure
+   25  make
+   26  make install
+   27  sh build.sh <key>
+   28  cd ../
+   29  sh build.sh <key>
+   30  cd../
+   31  cd ../
+   32  bin/ga-cmd
+   33  l
+   34  cd src/
+   35  bin/ga-cmd 
+   36  history
+
